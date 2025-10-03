@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1 - My First Webpage</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 20px;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .content {
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    a {
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: darkred;
+      text-decoration: underline;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1abc9c;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My First Webpage</h1>
+    <p>Task-1: Basics of Web Development</p>
+  </header>
+
+  <!-- Content -->
+  <div class="content">
+    <h2>About Me</h2>
+    <p>Hello! This is my first web development project using <b>HTML, CSS, and JavaScript</b>.  
+    I am learning how to create webpages, style them, and make them interactive.</p>
+
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading</li>
+      <li>Coding</li>
+      <li>Traveling</li>
+    </ul>
+
+    <p>Visit <a href="https://www.google.com" target="_blank">Google</a> to learn more.</p>
+
+    <img src="https://via.placeholder.com/300" alt="Sample Image">
+
+    <!-- Button with JavaScript -->
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function showMessage() {
+      alert("Hello! You just clicked the button.");
+    }
+  </script>
+</body>
+</html>
